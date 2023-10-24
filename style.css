@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.text_center{
+    text-align: center;
+}
+html, body{
+    background-color: rgb(3, 97, 219);
+}
+#countryContainer{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+#resultContainer{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 400px;
+    text-align: left;
+    background-color: white;
+}
+#resultContainer img{
+
+    margin: 0 auto;
+
+    min-width: 100%;
+    max-width: 322px;
+}
+
+.card{
+    min-width: 320px;
+    background-color: rgb(72, 255, 72);
+    border: #333 2px solid;
+    margin: 4px 4px
+}
+.card img{
+    width: 320px;
+    height: 220px;
+}
+.card:hover{
+    border: white 2px solid;
+}
+button{
+    border: none;
+    background: white;
+    text-decoration: underline;
+}
+.border{
+    color: blue;
+}
